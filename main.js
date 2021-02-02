@@ -1,9 +1,9 @@
-import { example } from 'data.js';
+import { example } from 'https://github.com/JohanLlerena/JohanPoject/blob/master/data.js';
 // import data from './data/lol/lol.js';
 
 function Personajes() {
 
-    fetch("rickandmorty.json")
+    fetch("https://github.com/JohanLlerena/JohanPoject/blob/master/rickandmorty.json")
         .then((respuesta) => respuesta.json())
         .then((datos) => {
             tabla(datos);
